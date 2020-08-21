@@ -1,30 +1,64 @@
-<link rel="stylesheet" href="style.scss">
-
-<header class="wrapper-content">
-
-  <div class="top-panel">
-    <div class="logo">
-      <div class="logo__circle logo__circle_back"></div>
-      <div class="logo__circle logo__circle_front">A</div>
-    </div>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>portfolio</title>
+  <meta name="viewport" content="width-device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.scss">
+</head>
+  <body>
     <div class="menu">
-      <div class="menu__burger">
-        <div class="menu__burger__line"></div>
-        <div class="menu__burger__line"></div>
-        <div class="menu__burger__line"></div>
-      </div>
-      <div class="menu__content">
-        <div class="menu__content__item">first</div>
-        <div class="menu__content__item">second</div>
+      <div class="menu__wrapper">
+        <div class="menu__item">
+          <div class="menu__item-data">
+            <div class="menu__item-title">
+              <a href="index.html">ГЛАВНАЯ</a>
+            </div>
+            <div class="menu__item-arrow-icon"></div>
+          </div>
+          <div class="menu__item-submenu"></div>
+        </div>
+        <div class="menu__item">
+          <div class="menu__item-data">
+            <div class="menu__item-title">
+              <a href="portfolio.html">ПОРТФОЛИО</a>
+            </div>
+            <div class="menu__item-arrow-icon"></div>
+          </div>
+          <div class="menu__item-submenu"></div>
+        </div>
+        <div class="menu__item">
+          <div class="menu__item-data">
+            <div class="menu__item-title">
+              <a href="#">КОНТАКТЫ</a>
+            </div>
+            <div class="menu__item-arrow-icon"></div>
+          </div>
+          <div class="menu__item-submenu"></div>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="information">
-    <h1 class="information__title">New Automation Tool for Your Home</h1>
-    <div class="information__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus tristique vulputate ultrices ut mauris tellus at. Posuere sollicitudin odio tellus elit.</div>
-    <button class="information__button">See Our Project</button>
-  </div>
-
-
-</header>
+    <div class="wrapper">
+      <div class="about">
+        <div class="about__photo">
+          <img class="about__photo-img" src="assets/photo.jpg">
+        </div>
+        <div class="about__content">
+          <div class="about__content-title">ПРИВЕТ!</div>
+          <div class="aboout__content-subtitle">Меня зовут Анастасия</div>
+          <div class="aboout__content-discription">
+            <p>Я занимаюсь<br>Web-разработкой:</p>
+            <ul>
+              <li> HTML</li>
+              <li>CSS</li>
+              <li>Bootstap</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Angular</li>
+            </ul>
+          </div>
+        </div> 
+      </div>
+     </div> 
+  </body>
+</html>
